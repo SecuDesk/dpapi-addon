@@ -1,0 +1,6 @@
+node_modules
+.gitignore
+.npmignore
+.nvmrc
+biome.json
+pnpm-lock.yaml

@@ -1,0 +1,1 @@
+cmd_Release/obj.target/dpapi.node := g++ -o Release/obj.target/dpapi.node -shared -pthread -rdynamic -m64  -Wl,-soname=dpapi.node -Wl,--start-group Release/obj.target/dpapi/dpapi-addon/main.o -Wl,--end-group 
